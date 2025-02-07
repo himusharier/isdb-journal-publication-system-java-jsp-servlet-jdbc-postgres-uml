@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aaaddb5-49c1-4b35-85b3-4bfb6e7c1772" name="Changes" comment="" />
+    <list default="true" id="6aaaddb5-49c1-4b35-85b3-4bfb6e7c1772" name="Changes" comment="project initialized">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/himusharier/database/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/himusharier/servlets/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/himusharier/database/journal-publication-db-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/journal-publication-db-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/himusharier/database/journal-publication-db-structure.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/journal-publication-db-structure.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +25,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "himusharier"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/himusharier/isdb-java-jsp-servlet-jdbc-postgres-uml-journal-publication-system.git",
+    "accountId": "eb977baa-c45d-442f-b793-2c9d80307f43"
+  }
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -53,7 +72,7 @@
     "Tomcat Server.Tomcat 9.0.98.executor": "Run",
     "Tomcat Server.Tomcat 9.0.981.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/xampp/htdocs/isdb-java-jsp-servlet-jdbc-postgres-uml-journal-publication-system",
@@ -62,6 +81,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -69,6 +91,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\isdb-java-jsp-servlet-jdbc-postgres-uml-journal-publication-system\src\main\java\org\himusharier\database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\isdb-java-jsp-servlet-jdbc-postgres-uml-journal-publication-system\src\main\resources\database" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,11 +319,24 @@
       <option name="presentableId" value="Default" />
       <updated>1738942188261</updated>
       <workItem from="1738942190233" duration="2258000" />
-      <workItem from="1738945263230" duration="1371000" />
+      <workItem from="1738945263230" duration="2634000" />
     </task>
+    <task id="LOCAL-00001" summary="project initialized">
+      <option name="closed" value="true" />
+      <created>1738948332490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738948332490</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project initialized" />
+    <option name="LAST_COMMIT_MESSAGE" value="project initialized" />
   </component>
 </project>
