@@ -9,12 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aaaddb5-49c1-4b35-85b3-4bfb6e7c1772" name="Changes" comment="project initialized">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/himusharier/database/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/himusharier/servlets/Registration.java" afterDir="false" />
+    <list default="true" id="6aaaddb5-49c1-4b35-85b3-4bfb6e7c1772" name="Changes" comment="project configured">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/himusharier/database/journal-publication-db-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/journal-publication-db-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/himusharier/database/journal-publication-db-structure.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/journal-publication-db-structure.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +22,26 @@
       <list>
         <option value="HTTP Request" />
         <option value="Class" />
+        <option value="editable-svg" />
+        <option value="xml" />
       </list>
     </option>
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "himusharier"
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;himusharier&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/himusharier/isdb-java-jsp-servlet-jdbc-postgres-uml-journal-publication-system.git",
-    "accountId": "eb977baa-c45d-442f-b793-2c9d80307f43"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/himusharier/isdb-java-jsp-servlet-jdbc-postgres-uml-journal-publication-system.git&quot;,
+    &quot;accountId&quot;: &quot;eb977baa-c45d-442f-b793-2c9d80307f43&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -69,6 +70,7 @@
     "HTTP Request.requests | #2.executor": "Run",
     "HTTP Request.requests | GET request to example server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "Tomcat Server.Tomcat 9.0.98.executor": "Run",
     "Tomcat Server.Tomcat 9.0.981.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
@@ -86,6 +88,11 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -319,7 +326,8 @@
       <option name="presentableId" value="Default" />
       <updated>1738942188261</updated>
       <workItem from="1738942190233" duration="2258000" />
-      <workItem from="1738945263230" duration="2634000" />
+      <workItem from="1738945263230" duration="3072000" />
+      <workItem from="1738951401844" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="project initialized">
       <option name="closed" value="true" />
@@ -329,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738948332490</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project configured">
+      <option name="closed" value="true" />
+      <created>1738949987844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738949987844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +353,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project initialized" />
-    <option name="LAST_COMMIT_MESSAGE" value="project initialized" />
+    <MESSAGE value="project configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="project configured" />
   </component>
 </project>
