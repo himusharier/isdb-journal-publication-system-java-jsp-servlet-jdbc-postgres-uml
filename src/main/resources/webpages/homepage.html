@@ -64,7 +64,7 @@
                 <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" href="#"><i class="bi bi-journal"></i> Journal</a>
+                <a class="nav-link active" href="#"><i class="bi bi-journal"></i> Journals</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" href="#"><i class="bi bi-bookmark-plus"></i> Submit an article</a>
@@ -87,7 +87,7 @@
 <div class="container-fluid my-5">
     <h2 class="text-center mb-5">Latest Updated Journals</h2>
     <div class="card-container">
-        <div class="card" style="width: 22rem;">
+        <div class="card" style="width: 22rem; cursor: pointer;" onclick="gotoJournalDetails('1234-5678')">
             <div class="card-body journal-card">
                 <h5 class="card-title">Botanical Research Journal</h5>
                 <p class="card-text"><strong>eISSN:</strong> 1234-5678</p>
@@ -163,8 +163,17 @@
         </div>
     </div>
 </div>
+<div class="container-fluid my-5">
+    <h2 class="text-center mb-5">Latest Articles</h2>
+</div>
 
 
+<script>
+    const journalEissn = "";
+    function gotoJournalDetails(journalEissn) {
+        window.location.href="#";
+    }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
